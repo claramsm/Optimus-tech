@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor-header: rgb(225, 185, 124);
+    --cor-padrão: rgb(15, 9, 183); 
+    --fonte-dos-numeros: verdana;
+    --font-padrao: "Roboto", sans-serif;
+    --fonte-padrao: "Ingrid Darling", cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 10px 50px;
+    color: #667085;
+    background-color: var(--cor-header) ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: auto;
+}
+
+.nav_logotipo {
+    gap: 8px;
+}
+
+.nav_links {
+    gap: 32px;
+}
+
+.nav_acesso {
+    gap: 12px;
+}
+
+.nav_acesso_cadastrar {
+    background-color: var(--cor-padrão);
+    color: aliceblue;
+    padding: 10px 18px;
+    border-radius: 8px;
+
+}
+
+.main_section_sobre {
+    padding: 96px 0px;
+    text-align: center;
+    max-width: 792px;
+    margin: 0 100px;
+}
+
+.main_section_sobre_p1 {
+    color: var(--cor-padrão);
+
+}
+
+.main_section_sobre_p2 {
+    font-family: var(--fonte-padrao);
+    color: #101828;
+    font-size: 48px;
+    font-weight: bold;
+    
+
+}
+
+.main_section_sobre_p3 {
+    color: #667085;
+    font-size: 20px;
+
+}
+
+.main_section_dados {
+    padding: 0 96px 96px 96px;
+    display: flex;
+    gap: 32px;
+}
+
+.main_section_dados_p1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--cor-padrão);
+
+}
